@@ -73,7 +73,7 @@ public class Popcorn {
 		}
 	}
 
-	private void pause() {
+	public void pause() {
 		try {
 			Thread.sleep(150);
 		} catch (InterruptedException e) {
