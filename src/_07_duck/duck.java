@@ -1,4 +1,4 @@
-package _06_vault;
+package _07_duck;
 
 public class duck {
 int numberOfFriends;

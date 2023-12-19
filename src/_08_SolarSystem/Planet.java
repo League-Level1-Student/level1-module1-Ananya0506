@@ -9,11 +9,21 @@ public class Planet {
     /*
      * Member variables
      */
+	int orbiTime;
+	int Dist;
+	Color color;
     int x, y, width, height;
     int diameter;
     
-    public Planet(int diameterPixels) {
+    public Planet(int diameterPixels, int orbitTime, int Dist, Color color, int x, int y, int width, int height) {
         this.diameter = diameterPixels;
+    this.orbiTime = orbitTime;
+    this.Dist = Dist;
+    this.color = color;
+    this.x = x;
+    this.y = y;
+    this.width = width;
+    this.height = height;
     }
 
     public void draw(Graphics g, int numDays) {
