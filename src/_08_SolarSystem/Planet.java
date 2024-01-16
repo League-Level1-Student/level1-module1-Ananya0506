@@ -9,24 +9,21 @@ public class Planet {
     /*
      * Member variables
      */
-	int orbiTime;
+	double orbiTime;
 	int Dist;
 	Color color;
-    int x, y, width, height;
     int diameter;
+ int x, y;
     
-    public Planet(int diameterPixels, int orbitTime, int Dist, Color color, int x, int y, int width, int height) {
+    public Planet(int diameterPixels, int dist, double orbitime,  Color color) {
         this.diameter = diameterPixels;
-    this.orbiTime = orbitTime;
-    this.Dist = Dist;
-    this.color = color;
-    this.x = x;
-    this.y = y;
-    this.width = width;
-    this.height = height;
+   this.Dist = dist;
+ this.orbiTime = orbitime;  
+   this.color = color;
+  
     }
-
-    public void draw(Graphics g, int numDays) {
+   
+	public void draw(Graphics g, int numDays) {
         /*
          * Local variables
          * Reassign or remove these after creating the correct member variables
