@@ -7,4 +7,4 @@ public class HarryPotterRunner {
 	potter.castSpell("stupefy");
 	potter.makeInvisible(true);
 	potter.spyOnSnape();  
-}
+}}

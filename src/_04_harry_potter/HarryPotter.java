@@ -18,7 +18,7 @@ public class HarryPotter {
 
 	private boolean cloakOn;
 
-	HarryPotter() {
+	 public void HarryPotter() {
 		System.out.println("making Harry Potter...");
 	}
 
@@ -39,4 +39,7 @@ public class HarryPotter {
 		System.out.println("Harry sees Professor Snape doing nefarious things.");
 	}
 
-}
+	
+	}
+
+

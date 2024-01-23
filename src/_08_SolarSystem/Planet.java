@@ -9,15 +9,15 @@ public class Planet {
     /*
      * Member variables
      */
-	double orbiTime;
-	int Dist;
+	int orbiTime;
+	int distance;
 	Color color;
     int diameter;
- int x, y;
+ int x, y, width, height;
     
-    public Planet(int diameterPixels, int dist, double orbitime,  Color color) {
+    public Planet(int diameterPixels, int dist, int orbitime,  Color color) {
         this.diameter = diameterPixels;
-   this.Dist = dist;
+   this.distance = dist;
  this.orbiTime = orbitime;  
    this.color = color;
   
@@ -29,8 +29,8 @@ public class Planet {
          * Reassign or remove these after creating the correct member variables
          */
         int avgDistFromSun = 1496 / 10;     // You can choose a different scaling than divided by 10
-        int orbitalPeriod = 365;
-        Color color = Color.BLUE;
+        int orbitalPeriod = this.orbiTime;
+        Color color = this.color;
         
         /*
          * Update position
