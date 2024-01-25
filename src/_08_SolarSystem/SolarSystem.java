@@ -133,6 +133,48 @@ public class SolarSystem implements GameControlScene {
         Saturn.draw(g, numDays);
        Uranus.draw(g, numDays);
       Neptune.draw(g, numDays);
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+        //sign out next time
+
+        //sign out next time
+        //sign out next time
+        v
+            //sign out next time
+            //sign out next time
+            //sign out next time
+            //sign out next time
+            //sign out next time
+            //sign out next time
+            //sign out next time
+            //sign out next time
+            //sign out next time
+            
+        
         
 
     }
@@ -142,3 +184,7 @@ public class SolarSystem implements GameControlScene {
         
     }
 }
+
+
+
+
