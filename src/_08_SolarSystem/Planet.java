@@ -10,25 +10,29 @@ public class Planet {
      * Member variables
      */
 	int orbiTime;
-	int distance;
+	int avgDistFromSun;
 	Color color;
     int diameter;
  int x, y, width, height;
     
     public Planet(int diameterPixels, int dist, int orbitime,  Color color) {
         this.diameter = diameterPixels;
-   this.distance = dist;
+   this.avgDistFromSun = dist;
  this.orbiTime = orbitime;  
    this.color = color;
   
     }
    
-	public void draw(Graphics g, int numDays) {
+
+    
+    public void draw(Graphics g, int numDays) {
         /*
          * Local variables
          * Reassign or remove these after creating the correct member variables
          */
-        int avgDistFromSun = 1496 / 10;     // You can choose a different scaling than divided by 10
+      
+		
+		 //avgDistFromSun = 300/10;     // You can choose a different scaling than divided by 10
         int orbitalPeriod = this.orbiTime;
         Color color = this.color;
         

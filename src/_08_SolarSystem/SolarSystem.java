@@ -66,14 +66,14 @@ public class SolarSystem implements GameControlScene {
     Long startTimeMs = null;
     Game gameFrame = new Game("Solar System");
     
-   Planet Earth = new Planet(8, 1496, 365, Color.GREEN);
-   Planet Mercury = new Planet(12, 589, 88 , Color.DARK_GRAY);
-   Planet Venus = new Planet(12, 1082, 224 , Color.WHITE);
-   Planet Mars = new Planet(9, 2279, 687 , Color.RED);
-   Planet Jupiter = new Planet(35, 7786, 12*365 , Color.ORANGE);
-   Planet Saturn = new Planet(30, 14335,29*365 , Color.LIGHT_GRAY);
-   Planet Uranus = new Planet(8, 28725, 84*365 , Color.CYAN);
-   Planet Neptune = new Planet(8, 44951, 164*365 , Color.BLUE);
+   Planet Earth = new Planet(8, 14, 365, Color.GREEN);
+   Planet Mercury = new Planet(12, 5, 88 , Color.DARK_GRAY);
+   Planet Venus = new Planet(12, 10, 224 , Color.WHITE);
+   Planet Mars = new Planet(9, 22, 687 , Color.RED);
+   Planet Jupiter = new Planet(35, 77, 12*365 , Color.ORANGE);
+   Planet Saturn = new Planet(30, 143,29*365 , Color.LIGHT_GRAY);
+   Planet Uranus = new Planet(8, 287, 84*365 , Color.CYAN);
+   Planet Neptune = new Planet(8, 449, 164*365 , Color.BLUE);
    
    public SolarSystem() {
         gameFrame.setScene(this);
@@ -133,47 +133,7 @@ public class SolarSystem implements GameControlScene {
         Saturn.draw(g, numDays);
        Uranus.draw(g, numDays);
       Neptune.draw(g, numDays);
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-        //sign out next time
-
-        //sign out next time
-        //sign out next time
-        v
-            //sign out next time
-            //sign out next time
-            //sign out next time
-            //sign out next time
-            //sign out next time
-            //sign out next time
-            //sign out next time
-            //sign out next time
-            //sign out next time
-            
+      
         
         
 
