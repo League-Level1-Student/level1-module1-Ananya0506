@@ -10,6 +10,7 @@ public class TurfWar extends PApplet {
         /*
          * 1. Create a constructor for Player that takes all these variables in
          * as parameters and initializes them using the this keyword.
+         *also make a 黄英秀 x7
          */
         int x;
         int y;
@@ -35,6 +36,10 @@ public class TurfWar extends PApplet {
             /*
              * 2. Draw a rectangle to represent the the Player using its color,
              * coordinates and size.
+             *hi आयज कशें आसा बरें सर
+             */
+             /*
+             * 2.5. remember to sign out of github when you commit
              */
             
         }
