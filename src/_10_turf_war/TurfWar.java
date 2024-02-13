@@ -74,16 +74,16 @@ public Player(int  x, int y, int speed, int playerSize, int playerColor, int upK
              * other directions.
              */
 
-            if (moveUp && y > 0) {
-                y-=speed;
+            if (moveDown && y < height-playerSize) {
+                y+=speed;
             }
 
-            if (moveUp && x > 0) {
+            if (moveLeft && x > 0) {
                 x-=speed;
             }
 
-            if (moveUp && x > 0) {
-                x-=speed;
+            if (moveRight && x < width-playerSize) {
+                x+=speed;
             }
         }
 
@@ -91,6 +91,7 @@ public Player(int  x, int y, int speed, int playerSize, int playerColor, int upK
         void enableMovement(int keyDown) {
             if (keyDown == upKey) {
                 moveUp = true;
+            System.out.println(keyDown);
             }
             if (keyDown == leftKey) {
                 moveLeft = true;
@@ -185,8 +186,8 @@ public Player(int  x, int y, int speed, int playerSize, int playerColor, int upK
          * not select black, white or the color you used for your background as it
          * will give that player an unfair advantage.
          */
-        player1 = new Player(100,100, 100, 50,Color.blue.getRGB(),UP,LEFT,DOWN,RIGHT);
-        player2 = new Player(900,900,100, 50,Color.red.getRGB(),W,A,S,D);
+        player1 = new Player(100,100, 2, 50,Color.blue.getRGB(),UP,DOWN, LEFT,RIGHT);
+        player2 = new Player(900,900,2, 50,Color.red.getRGB(),W,S,A,D);
         
     }
 
